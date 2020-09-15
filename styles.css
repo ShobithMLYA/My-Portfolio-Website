@@ -3,6 +3,7 @@
     src : url('./Font/Gilroy-ExtraBold.otf')
 }
 
+/*******************************************Root**************************************/
 *{
     margin: 0%;
     padding: 0%;
@@ -112,7 +113,7 @@ h1,h2,h3{
 }
 
 
-/*navbar*/
+/*******************************************Nav-Bar**************************************/
 
 nav{
     color: var(--clr-text-light);
@@ -140,7 +141,7 @@ nav{
     }
 }
 
-/*about-me*/
+/*******************************************About-Me**************************************/
 
 #about-me{
     display: flex;
@@ -190,6 +191,8 @@ nav{
         align-items: center;
     }
 }
+
+/*******************************************Projects**************************************/
 
 #projects{
     padding: 5%
@@ -251,9 +254,11 @@ nav{
     font-family: var(--ff-gilroy);
 }
 
+/*******************************************Services**************************************/
+
 #services{
     /* margin: 10% 0% 10% 0%; */
-    padding: 5%;
+    padding: 2%;
     background-color: var(--bg-darkest-dark);
 }
 
@@ -278,8 +283,10 @@ nav{
 }
 
 .service-icon{
-    align-items: flex-start;
-    width:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:300px;
     margin: 0em 10em 0em 10em;
 }
 
@@ -319,12 +326,13 @@ nav{
     }
 }
 
-
+/*******************************************Get-in-Touch**************************************/
 
 #get-in-touch{
     background-color: var(--bg-darkest-dark);
     /* display: flex */
     text-align: left;
+    align-items: center;
     padding: 5%;
     color: var(--clr-text-light);
 
@@ -345,6 +353,7 @@ nav{
 }
 
 .social-list-item{
+    
     width: 100px;
     opacity: 100%;
 }
@@ -377,6 +386,7 @@ nav{
     }
 }
 
+/*******************************************Footer**************************************/
 
 footer{
     
